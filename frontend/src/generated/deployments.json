@@ -1,0 +1,11 @@
+{
+  "network": "testnet",
+  "deployed_at": "2026-09-30T12:45:17.019474+00:00",
+  "contracts": {
+    "atelier-29": {
+      "contract_id": "ST3XHHZ1CXVCNYXK3FQ1FDGJ9NK6YBJBJK3FVY5KQ.atelier-29",
+      "tx_id": "0xe934ec8c059494203b6f578253f6be20a7c7807321709ed80be8f6422cb92239",
+      "block_height": 0
+    }
+  }
+}
