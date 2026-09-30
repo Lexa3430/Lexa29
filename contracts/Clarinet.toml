@@ -1,16 +1,18 @@
 [project]
 name = "collection"
-description = ""
+description = "LEXA 29 sealed NFT edition"
 authors = []
 telemetry = false
 cache_dir = "./.cache"
-requirements = []
 
 [repl.analysis]
 passes = ["check_checker"]
 check_checker = { trusted_sender = false, trusted_caller = false, callee_filter = false }
 
-[contracts.counter]
-path = "contracts/counter.clar"
+[[project.requirements]]
+contract_id = "SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait"
+
+[contracts.atelier-29]
+path = "contracts/atelier-29.clar"
 clarity_version = 6
 epoch = "4.0"
