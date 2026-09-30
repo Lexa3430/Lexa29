@@ -1,12 +1,9 @@
-import React from 'react'
-
 function Footer() {
-    return (
-    <div className='w-full mb-[50px]'>         
-        <p className='text-[12px] font-mono font-500 text-[#908E8E] flex items-center justify-center text-center'>Footer(c)</p>
-    </div>
+  return (
+    <footer className="site-footer">
+      LEXA 29 · primary sales split 90/10 · resale royalty 5% · market fee 2.5% · fixed edition of 29
+    </footer>
+  );
+}
 
-    );
-  }
-
-export default Footer
+export default Footer;
